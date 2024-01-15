@@ -1,5 +1,5 @@
-# Trevvo API Load Test
-Este projeto consiste em scripts para realizar testes de carga na API Trevvo, simulando múltiplos usuários realizando compras e consultas simultaneamente.
+# API Load Test
+Este projeto consiste em scripts para realizar testes de carga na API, simulando múltiplos usuários realizando compras e consultas simultaneamente.
 
 # Pré-requisitos
 Certifique-se de ter Python instalado no seu ambiente de desenvolvimento.
