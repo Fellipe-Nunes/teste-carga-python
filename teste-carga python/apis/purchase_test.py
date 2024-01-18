@@ -2,6 +2,10 @@ import threading
 import requests
 import time
 from config import configurations
+from report_generator import generate_pdf_summary
+
+# Lista para armazenar os resultados individuais de cada usuário
+results = []
 
 def make_purchase(user_id):
     url = f"{configurations['base_url']}{configurations['endpoint_purchase']}"
@@ -46,3 +50,5 @@ def run_purchase_test(num_users):
 if __name__ == "__main__":
     num_users = 50  # Número de usuários simultâneos
     run_purchase_test(num_users)
+
+    generate_pdf_summary(results)

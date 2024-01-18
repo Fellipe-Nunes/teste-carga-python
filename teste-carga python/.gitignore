@@ -1,0 +1,39 @@
+# Arquivos de compilação Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pyzw
+*.pyc/
+
+# Arquivos gerados por IDEs
+.idea/
+.vscode/
+
+# Arquivos de ambiente
+.env
+.env.*
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários
+*.tmp
+*.bak
+
+# Arquivos de cache
+*.cache
+.cache/
+
+# Arquivos compilados
+*.pyc
+*.pyo
+
+# Folders
+__pycache__/
+dist/
+build/
+*.egg-info/
+.DS_Store

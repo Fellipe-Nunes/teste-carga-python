@@ -1,6 +1,9 @@
 import requests
 import time
 from apis.config import configurations
+from report_generator import generate_pdf_summary
+
+results = []
 
 def make_request(user_id):
     # Constrói a URL completa
@@ -51,3 +54,5 @@ def run_load_test(num_users, num_requests_per_user):
     print(f"Teste de carga concluído para {num_users} usuários, "
           f"{num_requests_per_user} requisições por usuário, "
           f"Tempo total: {elapsed_time:.2f} segundos.")
+
+generate_pdf_summary(results)
