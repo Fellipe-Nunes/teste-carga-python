@@ -1,5 +1,5 @@
-# Trevvo API Load Test
-Este projeto consiste em scripts para realizar testes de carga na API Trevvo, simulando múltiplos usuários realizando compras e consultas simultaneamente.
+# API Load Test
+Este projeto consiste em scripts para realizar testes de carga em API, simulando múltiplos usuários realizando compras e consultas simultaneamente.
 
 # Pré-requisitos
 Certifique-se de ter Python instalado no seu ambiente de desenvolvimento.
@@ -30,5 +30,5 @@ endpoints.py: Arquivo para configurar os endpoints da API.
 load_test.py: Script principal para o teste de carga.
 purchase_test.py: Script para o teste de compras.
 report_generator.py: Módulo para a geração de relatórios em PDF.
-__init__.py: Um arquivo vazio indicando que a pasta principal (Trevvo_API_Load_Test/) deve ser tratada como um pacote.
+__init__.py: Um arquivo vazio indicando que a pasta principal (API_Load_Test/) deve ser tratada como um pacote.
 requirements.txt: Arquivo contendo as dependências do projeto.
